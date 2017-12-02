@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="hackathon.gmasa.interceptorsumit.com.rajasthanhackathon30.MainActivity">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Login"
+        android:padding="20dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="35sp"
+        android:gravity="center"/>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+    <TextView
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username - "/>
+    <EditText
+        android:id="@+id/usernameEdit"
+        android:padding="5dp"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chrissie" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Next"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login through Bhamasha"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login through E-mitra Id"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#FFF"
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="One can login through any authentication platform that government provides to raise an issue in respective department"/>
+
+<TextView
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:textColor="@color/colorAccent"
+    android:layout_height="wrap_content"
+    android:text="Right now user can login through username that will be saved on HASURA"/>
+</LinearLayout>

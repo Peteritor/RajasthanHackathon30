@@ -1,0 +1,71 @@
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+                >
+
+
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Fragment 3"
+        android:id="@+id/allstatus"
+        android:textSize="30sp"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:padding="10dp"
+       android:layout_height="match_parent">
+       <TextView
+           android:id="@+id/allIssuesdata"
+           android:layout_width="match_parent"
+           android:textStyle="bold"
+           android:layout_height="wrap_content"
+           android:textSize="15sp"
+           android:padding="10dp"
+           android:text="Fetching issues Raised by the user !"/>
+
+       <ProgressBar
+           android:id="@+id/progress1"
+           style="?android:attr/progressBarStyleHorizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:indeterminate="true"
+           android:max="100"
+           android:minHeight="20dp"
+           android:minWidth="300dp"
+           android:progress="1" />
+       <TextView
+           android:textSize="15sp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text=""
+           android:textColor="#D50000"
+           android:layout_marginLeft="10dp"
+           android:id="@+id/lasttext"
+           />
+
+
+       <Space
+           android:layout_width="match_parent"
+           android:layout_height="170dp" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#C5CAE9"
+           android:layout_gravity="end"
+           android:padding="10dp"
+           android:text="If your issue does not get resolved within the specified amount of time, then your issues gets automatically escalated to the higher officer/personal by our algorithm."
+           android:textColor="@color/colorAccent" />
+   </LinearLayout>
+
+</LinearLayout>

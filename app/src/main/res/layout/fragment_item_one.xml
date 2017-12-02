@@ -1,0 +1,81 @@
+<LinearLayout
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:visibility="visible"
+        android:text="This screen shows important news or information about the organization and here specifically important notifications of Rajasthan Government to the citizens residing.\n\n Data collected by the app can be analysed and minned to get insights of how well various departments are equipped and engaging to solve issues of people and get more indepth views of where to focus and invest on that will help people."
+        android:textSize="20sp"/>
+<TextView
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:textStyle="bold"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorPrimary"
+    android:text="Graphical representation of data that can be collected from the app and have well thought and pre-clean data for relevant and useful Insights - "/>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:gravity="center"
+                android:text="Insights of issues registered and resolved by Department"/>
+
+            <ImageView
+        android:layout_width="match_parent"
+        android:scaleType="fitStart"
+        android:layout_height="wrap_content"
+        android:src="@drawable/yearionsights"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:gravity="center"
+                android:text="Insights of quantitative issues raised in districts of Rajasthan"/>
+
+
+            <ImageView
+        android:layout_width="match_parent"
+        android:scaleType="fitStart"
+        android:layout_height="wrap_content"
+        android:src="@drawable/city8insights"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:gravity="center"
+                android:text="Insights of issues registered and resolved by Department"/>
+
+
+            <ImageView
+        android:layout_width="match_parent"
+        android:scaleType="fitStart"
+        android:layout_height="wrap_content"
+        android:src="@drawable/insight1"/>
+
+
+</LinearLayout>
+</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#9FA8DA"
+    android:layout_height="match_parent"
+    tools:context="hackathon.gmasa.interceptorsumit.com.rajasthanhackathon30.complain_sucess">
+
+    <TextView
+        android:textColor="#FFF"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="You have raised a complaint sucesfully. You'll be notified about your Issue Id number and kept posted about the series of events that your issue will through which includes the relevant personal and the timeline\nMeanwhile you can check the status of the issue raised by you and all the details regarding this in the app and we have already notified the concerned personal about this."/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C5CAE9"
+        android:layout_gravity="end"
+        android:padding="5dp"
+        android:layout_margin="20dp"
+        android:text="If your issue does not get resolved within the specified amount of time, then your issues gets automatically escalated to the higher officer/personal by our algorithm."
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="done_here"
+        android:text="Done"/>
+
+
+</LinearLayout>
